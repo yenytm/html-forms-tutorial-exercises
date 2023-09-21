@@ -1,1 +1,68 @@
-<!-- your code below here -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookRecs</title>
+  </head>
+  <body>
+    <h1>Book Recs by yenytm</h1>
+    <p>
+      Welcome fellow book lovers! Not sure what to read next? Fill in the form
+      below and we will recommend a list of 10 books depending on your answers!
+    </p>
+
+    <fieldset>
+      <legend>BookRecs📖</legend>
+      <h2> Your Contat Info:</h2>
+      <div>
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" />
+      </div>
+      <div>
+        <label for="Email">Email:</label>
+        <input type="email" name="Email" id="email" />
+        <div>
+            <label for="Age">Age:</label>
+            <input type="number" name="" value=""  id="age">
+        </div>
+        <h3>Tell us a little about your favorite books:</h3>
+        <div>
+            <label for="Genre">Favorite Genre:</label>
+            <select name="Genre" id="genre"> 
+                <option value="Romance">Romance</option>
+                <option value="Historical_Romance">Historical Romance</option>
+                <option value="Science_Fiction">Science Fiction</option>
+                <option value="Young_Adult">Young Adult</option>
+                <option value="Poems">Poems</option>
+                <option value="Mystery">Mystery</option>
+                <option value="Fantasy">Fantasy</option>
+            </select>
+        </div>
+        <h3>Select the size of the book you want to read</h3>
+        <input type="radio" name="pages" id="">
+        <label for="pages">Small</label>
+        <input type="radio" name="pages" id="">
+        <label for="pages">Medium</label>
+        <input type="radio" name="pages" id="">
+        <label for="pages">Large</label>
+
+        <h3>Book Format</h3>
+            <input type="checkbox" name="format" id="">
+            <label for="format">Kindle</label>
+            <input type="checkbox" name="format" id="">
+            <label for="format">Paperback</label>
+            <input type="checkbox" name="format" id="">
+            <label for="format">Hardcover</label>       
+    </div>
+    </fieldset>
+    <fieldset>
+      <legend>Send Us A Message</legend>
+     <div> <label for="msg">Any questions or feedback?</label>
+     </div>
+     <div> <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+     </div>
+    </fieldset>
+    <a href="contact_us.html">Contact Us!</a>
+  </body>
+</html>
